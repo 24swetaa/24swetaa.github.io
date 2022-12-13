@@ -1,0 +1,19 @@
+nav {
+    background: rgba(125, 112, 123, 0.3);
+    display: block;
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: calc(50% - 11rem);
+    /* transform: translateX(100%); */
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+
+}
+nav a {
+    background: transparent;
+
+}
