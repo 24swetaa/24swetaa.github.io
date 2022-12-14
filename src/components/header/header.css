@@ -49,12 +49,18 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 2rem;
-    border-radius: 20rem 20rem 20rem 20rem;
+    margin-top: 1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
     overflow: hidden;
-    padding: 0.5rem 3rem 3rem 0.1rem;
+    padding: 0rem 0rem 0rem 0rem;
 }
 
+.me:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 0.5s ease;
+}
 /* scroll */
 .scroll__down {
     position: absolute;

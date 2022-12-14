@@ -6,17 +6,20 @@ import {AiOutlineBook} from 'react-icons/ai'
 import {BiPhotoAlbum} from 'react-icons/bi'
 import {BsBookmarkCheck} from 'react-icons/bs'
 import {AiOutlineContacts} from 'react-icons/ai'
-const nav = () => {
+import {useState} from 'react'
+
+const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#home"><AiOutlineHome /></a>
-      <a href="#about"><AiOutlineUser /></a>
-      <a href="#experience"><AiOutlineBook /></a>
-      <a href="#gallery"><BiPhotoAlbum /></a>
-      <a href="#projects"><BsBookmarkCheck /></a>
-      <a href="#contact"><AiOutlineContacts /></a>
+      <a href="#"onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><AiOutlineBook /></a>
+      <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><BsBookmarkCheck /></a>
+      <a href="#gallery" onClick={() => setActiveNav('#gallery')} className={activeNav === '#gallery' ? 'active' : ''}><BiPhotoAlbum /></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineContacts /></a>
     </nav>
   )
 }
 
-export default nav
+export default Nav
