@@ -6,6 +6,7 @@ import {AiOutlineBook} from 'react-icons/ai'
 import {BiPhotoAlbum} from 'react-icons/bi'
 import {BsBookmarkCheck} from 'react-icons/bs'
 import {AiOutlineContacts} from 'react-icons/ai'
+import {GiAchievement} from 'react-icons/gi'
 import {useState} from 'react'
 
 const Nav = () => {
@@ -17,6 +18,7 @@ const Nav = () => {
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><AiOutlineBook /></a>
       <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}><BsBookmarkCheck /></a>
       <a href="#gallery" onClick={() => setActiveNav('#gallery')} className={activeNav === '#gallery' ? 'active' : ''}><BiPhotoAlbum /></a>
+      <a href="#achievements" onClick={() => setActiveNav('#achievements')} className={activeNav === '#achievements' ? 'active' : ''}><GiAchievement /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineContacts /></a>
     </nav>
   )
