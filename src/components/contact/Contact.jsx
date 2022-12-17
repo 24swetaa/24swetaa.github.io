@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
+import {BsGithub} from 'react-icons/bs'
 // import { useRef } from 'react';
 // import emailjs from 'emailjs-com'
 
@@ -23,13 +24,23 @@ const Contact = () => {
           <article className='contact__option'>
               <AiOutlineMail className='contact__option-icon'/>
               <h4>Email</h4>
-              <a href="mailto:sweta99.ar@gmail.com">
+              <a href="mailto:sweta99.ar@gmail.com" target='_blank'>
                 Send the message
               </a>
           </article>
           
         </div>
-        <article className='contact__option'>
+        <div className="contact__options">
+          <article className='contact__option'>
+              <BsGithub className='contact__option-icon'/>
+              <h4>GitHub</h4>
+              <a href="https://github.com/24swetaa" target='_blank'>
+                Connect
+              </a>
+          </article>
+          
+        </div>
+            <article className='contact__option'>
               <AiFillLinkedin className='contact__option-icon'/>
               <h4>Linkedin</h4>
               <a href="https://www.linkedin.com/in/sweta-singh-932b34206/" target='_blank'>
@@ -44,6 +55,7 @@ const Contact = () => {
 
           </form> */}
       </div>
+      
     </section >
   )
 }

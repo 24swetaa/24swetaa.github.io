@@ -15,17 +15,18 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <p>
-          Hi! I'm Sweta Singh. 
+          <p><div className='quotes'>
+          Hi! I'm Sweta Singh.
+          </div>
           </p>
           <p>
-            I am an undergraduate student at Indian Institute of Technology (BHU) Varanasi.
-            Currently I am in my third year of study at the institute completing my B.Tech degree
-            with major in Computer Science and Engineering.
+            I am a third year undergraduate student of the department of Computer Science and Engineering, Indian Institute of Technology (BHU) Varanasi, India. I was born in Ranchi, Jharkhand.
+            I like watching series and documentaries (especially of the thriller genre) and listening to stories. My usual way of going about everything in life is: <div className='quotes'><i>"Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth."</i></div>
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </section>
   )
 }

@@ -33,7 +33,9 @@
 .about__content p {
     margin: 2rem 0rem 2.6rem;
 }
-
+.quotes {
+    color: var(--color-light);
+}
 /* media queries */
 @media screen and (max-width: 1024px) {
     .about__container {

@@ -1,18 +1,20 @@
 import React from 'react'
-import './gallery.css'
-import Img1 from '../../assests/i1.png'
-import Img2 from '../../assests/i2.png'
-import Img3 from '../../assests/i3.png'
-import Img4 from '../../assests/i4.png'
-import Img5 from '../../assests/i5.png'
-import Img6 from '../../assests/i6.png'
-import Img7 from '../../assests/i7.png'
-import Img8 from '../../assests/iu.png'
-import Img9 from '../../assests/i9.png'
-const Gallery = () => {
+import './photography.css'
+import Img1 from '../../assests/p1.png'
+import Img2 from '../../assests/p2.png'
+import Img3 from '../../assests/p3.png'
+import Img4 from '../../assests/p4.png'
+import Img5 from '../../assests/i10.png'
+import Img6 from '../../assests/p6.png'
+import Img7 from '../../assests/p7.png'
+import Img8 from '../../assests/p8.png'
+import Img9 from '../../assests/i11.png'
+const Photography = () => {
   return (
-    <section id='gallery'>
-      <h2>MY ART WORK</h2>
+    <section id='photography'>
+    <h4>Pictures of memorable places</h4>
+    <h2>PHOTOGRAPHY</h2>
+    
       <div className="container gallery__container">
         <article className='gallery__item'>
           <div className='gallery__item-image'>
@@ -21,7 +23,7 @@ const Gallery = () => {
         </article>
         <article className='gallery__item'>
           <div className='gallery__item-image'>
-            <img src={Img3} alt="" />
+            <img src={Img7} alt="" />
           </div>
         </article>
         <article className='gallery__item'>
@@ -51,7 +53,7 @@ const Gallery = () => {
         </article>
         <article className='gallery__item'>
           <div className='gallery__item-image'>
-            <img src={Img7} alt="" />
+            <img src={Img3} alt="" />
           </div>
         </article>
         <article className='gallery__item'>
@@ -60,8 +62,8 @@ const Gallery = () => {
           </div>
         </article>
       </div>
-    </section >
+      </section>
   )
 }
 
-export default Gallery
+export default Photography

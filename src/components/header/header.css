@@ -69,5 +69,6 @@ header {
     transform: rotate(90deg);
     font-weight: 800;
     font-size: 0.9rem;
+    color: var(--color-light);
 }
 

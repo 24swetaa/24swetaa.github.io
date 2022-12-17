@@ -8,6 +8,7 @@ import Projects from './components/projects/projects'
 import Gallery from './components/gallery/Gallery'
 import Achievements from './components/achievements/Achievements'
 import Footer from './components/footer/Footer'
+import Photography from './components/photography/Photography'
 
 const App = () => {
   return (
@@ -19,9 +20,9 @@ const App = () => {
       <Projects />
       <Gallery />
       <Achievements />
+      <Photography />
       <Contact />
       <Footer />
-      
     </>
   )
 }
