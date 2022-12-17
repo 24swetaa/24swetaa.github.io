@@ -12,7 +12,7 @@ import Img9 from '../../assests/i9.png'
 const Gallery = () => {
   return (
     <section id='gallery'>
-      <h2>MY ART WORK</h2>
+      <h2><b>MY ART WORK</b> 🎨</h2>
       <div className="container gallery__container">
         <article className='gallery__item'>
           <div className='gallery__item-image'>

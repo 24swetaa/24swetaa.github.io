@@ -4,7 +4,7 @@ import {BsFillStarFill} from 'react-icons/bs'
 const Achievements = () => {
   return (
     <section id='achievements'>
-        <h2>ACHIEVEMENTS</h2>
+        <h2>ACHIEVEMENTS ⭐</h2>
         <div className="container achieve__container">
             <div className='achieve_content'>
                 <ul>

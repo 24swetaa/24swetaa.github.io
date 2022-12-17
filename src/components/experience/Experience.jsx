@@ -4,11 +4,11 @@ import {BsFillStarFill} from 'react-icons/bs'
 const experience = () => {
   return (
     <section id='experience'>
-      <h2>SKILLS</h2>
+      <h2>SKILLS 🌟</h2>
 
       <div className="container experience__container">
         <div className="expereince__languages">
-          <h3>Languages</h3>
+          <h3><i>Languages</i></h3>
           <div className="experience__content">
             <article className='experience_details'>
               <BsFillStarFill className='experience_details-icon'/>
@@ -49,7 +49,7 @@ const experience = () => {
         </div>
 
         <div className="expereince__tools">
-          <h3>Tools & Frameworks</h3>
+          <h3><i>Tools & Frameworks</i></h3>
           <div className="experience__content">
             <article className='experience_details'>
               <BsFillStarFill className='experience_details-icon'/>

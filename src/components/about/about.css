@@ -1,11 +1,11 @@
 .about__container {
     display: grid;
-    grid-template-columns: 25% 50%;
+    grid-template-columns: 8% 50%;
     gap: 15%;
     padding-left: 4rem;
 }
 
-.about__me {
+/* .about__me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -17,7 +17,7 @@
     );
     display: grid;
     place-items: center;
-}
+} */
 
 .about__me-image {
     border-radius: 2rem;
@@ -33,9 +33,11 @@
 
 .about__content p {
     margin: 2rem 0rem 2.6rem;
+    text-align: center;
 }
 .quotes {
     color: var(--color-light);
+    text-align: center;
 }
 /* media queries */
 @media screen and (max-width: 1024px) {

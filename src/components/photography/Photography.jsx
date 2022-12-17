@@ -12,8 +12,8 @@ import Img9 from '../../assests/i11.png'
 const Photography = () => {
   return (
     <section id='photography'>
-    <h4>Pictures of memorable places</h4>
-    <h2>PHOTOGRAPHY</h2>
+    <h4><i>Pictures of memorable places</i></h4>
+    <h2>PHOTOGRAPHY 📷</h2>
     
       <div className="container gallery__container">
         <article className='gallery__item'>

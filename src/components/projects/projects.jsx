@@ -7,7 +7,7 @@ import Monster from '../../assests/monster.png'
 const Projects = () => {
   return (
     <section id='projects'>
-      <h2>MY PROJECTS</h2>
+      <h2>MY PROJECTS 🔖</h2>
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <h3>Jagriti Shop</h3>

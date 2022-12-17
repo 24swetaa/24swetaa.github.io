@@ -1,9 +1,14 @@
 import React from 'react'
 import './footer.css'
-const footer = () => {
+const Footer = () => {
   return (
-    <section id='footer'>footer</section >
+    <footer>
+      <div className='container__footer'>
+        <i>Made with ❤ by Sweta</i>    
+      </div>
+      
+    </footer>
   )
 }
 
-export default footer
+export default Footer

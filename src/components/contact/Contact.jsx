@@ -17,8 +17,8 @@ const Contact = () => {
   // };
   return (
     <section id='contact'>
-      <h4>Get In Touch</h4>
-      <h2>Contact Me</h2>
+      <h4><i>Get In Touch</i></h4>
+      <h2>Contact Me 📞</h2>
       <div className='container contact__container'>
         <div className="contact__options">
           <article className='contact__option'>
@@ -54,6 +54,7 @@ const Contact = () => {
             <button type='submit' className='btn btn-primary'>Send</button>
 
           </form> */}
+          
       </div>
       
     </section >
