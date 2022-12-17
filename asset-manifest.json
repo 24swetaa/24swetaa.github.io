@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/24swetaa.github.io/static/css/main.6cec08d2.css",
+    "main.js": "/24swetaa.github.io/static/js/main.92b27bb0.js",
+    "static/media/i4.png": "/24swetaa.github.io/static/media/i4.b300038e1d53899d7b8f.png",
+    "static/media/shop.png": "/24swetaa.github.io/static/media/shop.ff0dbc437eedb1ef5297.png",
+    "static/media/p2.png": "/24swetaa.github.io/static/media/p2.5615ccd8eb40f9ef7471.png",
+    "static/media/i3.png": "/24swetaa.github.io/static/media/i3.c379f0f7cd71fedeef4d.png",
+    "static/media/p1.png": "/24swetaa.github.io/static/media/p1.72af601e1a2dac12b877.png",
+    "static/media/p4.png": "/24swetaa.github.io/static/media/p4.fdc509956679d63198d0.png",
+    "static/media/i6.png": "/24swetaa.github.io/static/media/i6.a16c18943bbbe6c846b8.png",
+    "static/media/p6.png": "/24swetaa.github.io/static/media/p6.e1c04c8761a08e4e2746.png",
+    "static/media/p7.png": "/24swetaa.github.io/static/media/p7.ccdf3a1007450682aaba.png",
+    "static/media/swetu2.png": "/24swetaa.github.io/static/media/swetu2.864432b2cc7f51c43aad.png",
+    "static/media/i7.png": "/24swetaa.github.io/static/media/i7.b92c677258b79dfa3c94.png",
+    "static/media/i2.png": "/24swetaa.github.io/static/media/i2.62bac94057309d8728f2.png",
+    "static/media/iu.png": "/24swetaa.github.io/static/media/iu.6d951828ab663e094524.png",
+    "static/media/p3.png": "/24swetaa.github.io/static/media/p3.9e5734a8e275805cd376.png",
+    "static/media/p8.png": "/24swetaa.github.io/static/media/p8.627eed97aa6b00539b16.png",
+    "static/media/i10.png": "/24swetaa.github.io/static/media/i10.fca9ef34a2bacb992c46.png",
+    "static/media/i9.png": "/24swetaa.github.io/static/media/i9.e9a4e913f17599ac4d16.png",
+    "static/media/i11.png": "/24swetaa.github.io/static/media/i11.c898b7675367ceef03c4.png",
+    "static/media/i1.png": "/24swetaa.github.io/static/media/i1.4f26b976642e6ee4b1da.png",
+    "static/media/i5.png": "/24swetaa.github.io/static/media/i5.eb321b8424ea4df46d4d.png",
+    "static/media/monster.png": "/24swetaa.github.io/static/media/monster.dae345cc53408dd2d6fe.png",
+    "static/media/movie.png": "/24swetaa.github.io/static/media/movie.3896bb7149174c6d3703.png",
+    "static/media/pics.png": "/24swetaa.github.io/static/media/pics.e0e1aa6c9b96abb6b894.png",
+    "index.html": "/24swetaa.github.io/index.html",
+    "main.6cec08d2.css.map": "/24swetaa.github.io/static/css/main.6cec08d2.css.map",
+    "main.92b27bb0.js.map": "/24swetaa.github.io/static/js/main.92b27bb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cec08d2.css",
+    "static/js/main.92b27bb0.js"
+  ]
+}
