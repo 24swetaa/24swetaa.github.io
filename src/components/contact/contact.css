@@ -18,11 +18,14 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    transition: transform 0.2s;
 }
 
 .contact__option:hover {
     background-color: transparent;
     border-color: var(--color-primary-variant);
+    background: transparent;
+    transform: scale(1.05);
 }
 
 .contact__option-icon {

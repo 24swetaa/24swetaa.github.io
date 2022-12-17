@@ -10,10 +10,12 @@
     border-radius: 2rem;
     border: 2px solid transparent;
     transition: var(--transition);
+    transition: transform 0.2s;
 }
 .gallery__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+    transform: scale(1.1);
 }
 
 /* media queries */

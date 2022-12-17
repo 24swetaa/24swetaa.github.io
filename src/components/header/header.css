@@ -53,13 +53,13 @@ header {
     border-radius: 1rem 1rem 1rem 1rem;
     overflow: hidden;
     padding: 0rem 0rem 0rem 0rem;
+    transition: transform 0.2s;
 }
 
 .me:hover {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
-    transition: 0.5s ease;
+    border-color: var(--color-primary-variant);
+    background: transparent;
+    transform: scale(0.8);
 }
 /* scroll */
 .scroll__down {

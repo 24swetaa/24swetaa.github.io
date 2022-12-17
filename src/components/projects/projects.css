@@ -10,10 +10,12 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    transition: transform 0.2s;
 }
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+    transform: scale(1.05);
 }
 .portfolio__item h3 {
     margin: 1.2rem 0 1rem;
