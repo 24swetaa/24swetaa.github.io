@@ -1,6 +1,6 @@
 import React from 'react'
 import './achievements.css'
-import {BsFillStarFill} from 'react-icons/bs'
+
 const Achievements = () => {
   return (
     <section id='achievements'>
