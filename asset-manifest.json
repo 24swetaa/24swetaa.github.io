@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/24swetaa.github.io/static/css/main.6cec08d2.css",
-    "main.js": "/24swetaa.github.io/static/js/main.92b27bb0.js",
+    "main.js": "/24swetaa.github.io/static/js/main.ab4fd444.js",
     "static/media/i4.png": "/24swetaa.github.io/static/media/i4.b300038e1d53899d7b8f.png",
     "static/media/shop.png": "/24swetaa.github.io/static/media/shop.ff0dbc437eedb1ef5297.png",
     "static/media/p2.png": "/24swetaa.github.io/static/media/p2.5615ccd8eb40f9ef7471.png",
@@ -27,10 +27,10 @@
     "static/media/pics.png": "/24swetaa.github.io/static/media/pics.e0e1aa6c9b96abb6b894.png",
     "index.html": "/24swetaa.github.io/index.html",
     "main.6cec08d2.css.map": "/24swetaa.github.io/static/css/main.6cec08d2.css.map",
-    "main.92b27bb0.js.map": "/24swetaa.github.io/static/js/main.92b27bb0.js.map"
+    "main.ab4fd444.js.map": "/24swetaa.github.io/static/js/main.ab4fd444.js.map"
   },
   "entrypoints": [
     "static/css/main.6cec08d2.css",
-    "static/js/main.92b27bb0.js"
+    "static/js/main.ab4fd444.js"
   ]
 }
