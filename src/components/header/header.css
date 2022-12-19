@@ -26,7 +26,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: 200px;
 }
 
 .header__socials::after {
@@ -72,3 +72,28 @@ header {
     color: var(--color-light);
 } */
 
+/* media queries */
+@media screen and (max-width: 1024px) {
+    .header__container {
+        padding-top: 100px;
+    }
+    .text-light {
+        font-size: 20px;
+    }
+    .header__container h1 {
+        font-size: 30px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .header__container {
+        padding-top: 100px;
+    }
+    .text-light {
+        font-size: 20px;
+    }
+    .header__container h1 {
+        font-size: 30px;
+    }
+    
+}
